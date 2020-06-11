@@ -9,5 +9,6 @@
     <p><?= 'User Agent : ' . $_SERVER['HTTP_USER_AGENT']; ?></p>
     <p><?= 'Adresse IP : ' . $_SERVER['SERVER_ADDR']; ?></p>
     <p><?= 'Nom du serveur : ' . $_SERVER['SERVER_NAME']; ?></p>
+    <p><a href="../index.php">Retour au menu</a></p>
 </body>
 </html>
