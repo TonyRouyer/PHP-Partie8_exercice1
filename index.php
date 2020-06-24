@@ -6,9 +6,9 @@
     <title>Partie 8 exercice1</title>
 </head>
 <body>
-    <p><?= 'User Agent : ' . $_SERVER['HTTP_USER_AGENT']; ?></p>
-    <p><?= 'Adresse IP : ' . $_SERVER['SERVER_ADDR']; ?></p>
-    <p><?= 'Nom du serveur : ' . $_SERVER['SERVER_NAME']; ?></p>
+    <p><?= 'User Agent : ' . $_SERVER['HTTP_USER_AGENT']; //on affiche l'user agent?></p>
+    <p><?= 'Adresse IP : ' . $_SERVER['REMOTE_ADDR']; //on affiche l'adress ip?></p>
+    <p><?= 'Nom du serveur : ' . $_SERVER['SERVER_NAME']; // on affiche le nom de domaine?></p>
     <p><a href="../index.php">Retour au menu</a></p>
 </body>
 </html>
